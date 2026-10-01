@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
 import UploadVideo from './pages/UploadVideo';
+import VideoDetail from './pages/VideoDetail';
 import Navbar from './components/navbar';
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/video/:videoId" element={<VideoDetail />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/upload" element={<UploadVideo />} />

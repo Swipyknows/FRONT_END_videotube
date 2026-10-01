@@ -1,0 +1,50 @@
+.video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: border-radius 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  border-radius: 0;
+}
+
+.video-info {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.video-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title-link {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+.video-text h4 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.channel-name, .views {
+  margin: 0;
+  font-size: 14px;
+  color: #606060;
+}

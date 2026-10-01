@@ -1,0 +1,22 @@
+.home-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 60px);
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  row-gap: 40px;
+}
+
+.loading, .error {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.navbar-center {
+  flex: 0 1 600px;
+}
+
+.search-bar {
+  display: flex;
+  width: 100%;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.navbar-right .user-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.auth-links {
+  display: flex;
+  gap: 10px;
+}
+
+.logout-btn, .login-btn, .register-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.login-btn {
+  color: #065fd4;
+  background-color: transparent;
+  border: 1px solid #065fd4;
+}
+
+.register-btn {
+  background-color: #065fd4;
+  color: white;
+}
+.upload-btn {
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color: #0f0f0f;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.upload-btn:hover {
+  background-color: #e5e5e5;
+}
